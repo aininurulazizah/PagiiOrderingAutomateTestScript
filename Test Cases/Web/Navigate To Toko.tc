@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigate To Toko</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7426a78-2eff-4fc9-990d-4dbe3faf131d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3700a907-773c-40b2-ad1f-13e5cc544ffa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.Toko</defaultValue>
+      <description></description>
+      <id>3700a907-773c-40b2-ad1f-13e5cc544ffa</id>
+      <masked>false</masked>
+      <name>Toko</name>
+   </variable>
+</TestCaseEntity>
