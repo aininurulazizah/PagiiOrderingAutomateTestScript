@@ -14,4 +14,9 @@
       <initValue>'AiSpice Cafe'</initValue>
       <name>Toko</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aispicecafe-1'</initValue>
+      <name>LinkToko</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

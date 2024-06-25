@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddProductToCartWithZeroStockAndWithoutNotes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>511a601f-cbaa-49e1-94a0-1b16145511a3</testCaseGuid>
+</TestCaseEntity>
