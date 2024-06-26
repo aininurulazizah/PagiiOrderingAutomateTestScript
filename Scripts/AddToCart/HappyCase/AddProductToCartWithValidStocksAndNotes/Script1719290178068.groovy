@@ -35,5 +35,5 @@ for (int i = 0; i < 2; i++) {
     WebUI.click(findTestObject('Page_AddToCart/img_Ini roti_btn-increment'))
 }
 
-WebUI.click(findTestObject('Page_AddToCart/div_Tambah ke keranjang'))
+WebUI.click(findTestObject('Page_AddToCart/div_Tambah ke keranjang Banana'))
 

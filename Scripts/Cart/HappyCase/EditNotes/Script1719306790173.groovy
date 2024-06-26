@@ -23,9 +23,11 @@ WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
 
 WebUI.click(findTestObject('Page_Cart/p_Ubah Catatan'))
 
-WebUI.click(findTestObject('Page_Cart/notes'))
+//WebUI.click(findTestObject('Page_Cart/notes'))
 
-WebUI.sendKeys(findTestObject('Page_Cart/notes'), 'Ini edit catatan')
+WebUI.clearText(findTestObject('Page_Cart/notes'))
+
+WebUI.setText(findTestObject('Page_Cart/notes'), 'Ini edit catatan')
 
 WebUI.click(findTestObject('Page_Cart/p_Simpan'))
 

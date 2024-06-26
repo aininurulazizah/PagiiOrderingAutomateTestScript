@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Tambah ke keranjang</name>
+   <name>div_Tambah ke keranjang Banana</name>
    <tag></tag>
    <elementGuidId>8ba10791-c5c7-43d6-9a0e-65141da78fd3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.w-full.h-full.flex.flex-col.justify-center.cursor-not-allowed</value>
+         <value>div.w-full.h-full.flex.flex-col.justify-center.cursor-pointer</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Ini roti'])[1]/following::div[12]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kopi luwak dari luwak asli'])[1]/following::div[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>31107c3e-cf48-4002-a8f8-c6de6ac65d55</webElementGuid>
+      <webElementGuid>7160d23d-0035-4b6d-bc60-f218c818d192</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-full h-full flex flex-col justify-center cursor-not-allowed</value>
-      <webElementGuid>be24aaf4-c020-4497-8b8a-bbd2e7b03fd2</webElementGuid>
+      <value>w-full h-full flex flex-col justify-center cursor-pointer</value>
+      <webElementGuid>b3c1b02b-ec44-4a77-8b07-518de3673a84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,16 +45,48 @@
       <name>text</name>
       <type>Main</type>
       <value>Tambah ke keranjang</value>
-      <webElementGuid>d47eea00-872b-4666-a299-a63434b53e79</webElementGuid>
+      <webElementGuid>028ea0f3-972a-4160-9e51-4eba3dae8f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;__className_96f5ea max-w-md mx-auto min-w-[320px]&quot;]/reach-portal[1]/div[@class=&quot;fixed bottom-0 z-[99] h-[200px]&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;flex flex-none flex-col relative overflow-hidden w-full h-[75%]&quot;]/div[1]/div[@class=&quot;rounded-b-cust-full flex flex-col relative border border-gray-100 bg-white p-3 mb-[160px]&quot;]/div[@class=&quot;fixed left-0 right-0 bottom-0 p-2 bg-white rounded-t-xl shadow-[0_32px_54px_-15px_rgba(0,0,0,1)] shadow-black&quot;]/div[@class=&quot;w-full h-[60px] mt-4 bg-[#ABABAB] rounded-md px-4 flex flex-row gap-3&quot;]/div[@class=&quot;w-full h-full flex flex-col justify-center cursor-not-allowed&quot;]</value>
-      <webElementGuid>459d4581-98bf-49b1-9377-fb96256b7284</webElementGuid>
+      <value>/html[1]/body[@class=&quot;__className_96f5ea max-w-md mx-auto min-w-[320px]&quot;]/reach-portal[1]/div[@class=&quot;fixed bottom-0 z-[99] h-[200px]&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;flex flex-none flex-col relative overflow-hidden w-full h-[75%]&quot;]/div[1]/div[@class=&quot;rounded-b-cust-full flex flex-col relative border border-gray-100 bg-white p-3 mb-[160px]&quot;]/div[@class=&quot;fixed left-0 right-0 bottom-0 p-2 bg-white rounded-t-xl shadow-[0_32px_54px_-15px_rgba(0,0,0,1)] shadow-black&quot;]/div[@class=&quot;w-full h-[60px] mt-4 bg-[#FFC226] hover:bg-[#FFC226]/90 rounded-md px-4 flex flex-row gap-3&quot;]/div[@class=&quot;w-full h-full flex flex-col justify-center cursor-pointer&quot;]</value>
+      <webElementGuid>31f84ca0-0785-4726-9793-026a3ed82a0b</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kopi luwak dari luwak asli'])[1]/following::div[11]</value>
+      <webElementGuid>5e3ff915-4d6b-4541-9e19-9760feb4e1e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kopi Luwak'])[3]/following::div[12]</value>
+      <webElementGuid>f4337c59-da84-4c1e-91b5-293a3a488310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div[2]/div</value>
+      <webElementGuid>ed58b308-e1e4-47b1-a94b-6449b56a92a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tambah ke keranjang' or . = 'Tambah ke keranjang')]</value>
+      <webElementGuid>b92891f5-24d8-42d5-a86f-fa3a414d2e2d</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -78,14 +110,6 @@
       <type>Main</type>
       <value>//div[4]/div[2]/div</value>
       <webElementGuid>24c2ab0a-1631-4ceb-b48d-3183643738b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Tambah ke keranjang' or . = 'Tambah ke keranjang')]</value>
-      <webElementGuid>b5950cc2-7939-4f67-a46b-6712c8d82339</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

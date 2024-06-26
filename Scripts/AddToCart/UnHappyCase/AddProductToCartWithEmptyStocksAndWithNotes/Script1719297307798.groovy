@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Page_AddToCart/quantity'), '')
 
 WebUI.delay(2)
 
-TestObject divButtonElement = findTestObject('Page_AddToCart/div_Tambah ke keranjang')
+TestObject divButtonElement = findTestObject('Page_AddToCart/div_Tambah ke keranjang Banana')
 
 String classAttributeValue = WebUI.getAttribute(divButtonElement, 'class')
 

@@ -17,27 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web/Navigate To Toko'), [('Toko') : GlobalVariable.Toko], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AddToCart/HappyCase/AddProductToCartWithValidStocksAndNotes'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
 
-WebUI.scrollToElement(findTestObject('Page_Home/p_Semua Menu'), 0)
+while (true) {
+    String quantity = WebUI.getAttribute(findTestObject('Page_Cart/input quantity'), 'value')
 
-WebUI.delay(3)
+    if (quantity == '1') {
+        WebUI.click(findTestObject('Page_Cart/decrease button'))
+        break
+    }
+    
+    WebUI.click(findTestObject('Page_Cart/decrease button'))
+}
 
-WebUI.click(findTestObject('Page_Home/div_Banana Cream'))
+WebUI.click(findTestObject('Page_Cart/div_Ya, Hapus'))
 
-WebUI.scrollToElement(findTestObject('Page_AddToCart/notes'), 0)
-
-WebUI.setText(findTestObject('Page_AddToCart/notes'), 'Jangan terlalu manis')
-
-WebUI.setText(findTestObject('Page_AddToCart/quantity'), '200')
-
-WebUI.delay(2)
-
-TestObject divButtonElement = findTestObject('Page_AddToCart/div_Tambah ke keranjang Banana')
-
-String classAttributeValue = WebUI.getAttribute(divButtonElement, 'class')
-
-assert classAttributeValue.contains('cursor-not-allowed')
+WebUI.verifyElementNotPresent(findTestObject('Page_Cart/increase button'), 2, FailureHandling.STOP_ON_FAILURE)
 
