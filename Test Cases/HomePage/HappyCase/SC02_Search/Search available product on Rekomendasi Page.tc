@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search available product on Rekomendasi Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d6ad71f-ecb3-423d-a684-eb77b0e66653</testCaseGuid>
+</TestCaseEntity>

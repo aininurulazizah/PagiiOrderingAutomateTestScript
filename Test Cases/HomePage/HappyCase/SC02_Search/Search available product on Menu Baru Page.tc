@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search available product on Menu Baru Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1261b1a5-8862-4473-b3f5-e34f259b6ada</testCaseGuid>
+</TestCaseEntity>

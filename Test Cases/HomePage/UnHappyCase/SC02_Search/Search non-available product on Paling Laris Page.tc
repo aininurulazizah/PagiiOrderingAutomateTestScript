@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search non-available product on Paling Laris Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1377ccbf-b44d-4eba-97f0-ecc3e438939a</testCaseGuid>
+</TestCaseEntity>

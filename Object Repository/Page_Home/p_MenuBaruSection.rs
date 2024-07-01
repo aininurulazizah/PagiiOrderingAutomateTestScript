@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>HyperlinkLihatSemuaPalingHemat</name>
+   <name>p_MenuBaruSection</name>
    <tag></tag>
-   <elementGuidId>2f7910ea-823d-46f0-bf88-184d6a64920f</elementGuidId>
+   <elementGuidId>23abe4ec-587b-49a5-a14a-1fdf3060ba93</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, 'list-product/hemat')]</value>
+         <value>//p[text()='Yuk, coba menu baru']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

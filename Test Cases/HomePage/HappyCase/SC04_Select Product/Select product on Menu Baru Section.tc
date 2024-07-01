@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select product on Menu Baru Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82c7d8dd-ff03-4649-a1d2-dda46b8455b7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search non-available product on Detail Kategori Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a44a88be-e2d4-4468-96e8-4dad7891bc6a</testCaseGuid>
+</TestCaseEntity>

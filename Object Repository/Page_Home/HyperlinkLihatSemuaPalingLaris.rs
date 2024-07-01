@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>HyperlinkLihatSemuaPalingHemat</name>
+   <name>HyperlinkLihatSemuaPalingLaris</name>
    <tag></tag>
-   <elementGuidId>2f7910ea-823d-46f0-bf88-184d6a64920f</elementGuidId>
+   <elementGuidId>bb823fc6-e39c-4970-95ea-816942a0e375</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, 'list-product/hemat')]</value>
+         <value>//a[contains(@href, 'list-product/terlaris')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

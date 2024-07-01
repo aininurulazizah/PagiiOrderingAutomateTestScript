@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search non-available product on Paling Hemat Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04636e74-e26c-4b6d-b7c0-6f17c93c3a6e</testCaseGuid>
+</TestCaseEntity>

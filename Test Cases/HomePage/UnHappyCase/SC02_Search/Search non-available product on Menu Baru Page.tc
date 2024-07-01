@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search non-available product on Menu Baru Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63d01cda-6fb9-4ee1-8ee2-212535616872</testCaseGuid>
+</TestCaseEntity>
