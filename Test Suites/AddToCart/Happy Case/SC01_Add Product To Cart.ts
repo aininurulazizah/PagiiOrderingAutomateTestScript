@@ -15,14 +15,14 @@
       <guid>15aa0e85-e39c-460c-8680-ec7f3c9f6278</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AddToCart/HappyCase/SC01_Add Product To Cart/AddProductToCartWithValidStocksAndNotes</testCaseId>
+      <testCaseId>Test Cases/AddToCart/HappyCase/SC01_Add Product To Cart/TC01_AddProductToCartWithValidStocksAndNotes</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5f86c7e4-62e6-44fe-b98b-9ed4a1ba5146</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AddToCart/HappyCase/SC01_Add Product To Cart/AddProductToCartWithValidStocksWithoutNotes</testCaseId>
+      <testCaseId>Test Cases/AddToCart/HappyCase/SC01_Add Product To Cart/TC02_AddProductToCartWithValidStocksWithoutNotes</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

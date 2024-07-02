@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select product on Semua Menu Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21c30acc-563f-40dc-b598-f9cf72c2e7f6</testCaseGuid>
+</TestCaseEntity>

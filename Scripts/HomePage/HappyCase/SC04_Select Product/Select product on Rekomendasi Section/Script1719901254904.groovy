@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Web/Navigate To Toko'), [('Toko') : GlobalVaria
 
 WebUI.refresh()
 
-WebUI.scrollToElement(findTestObject('Page_Home/p_PalingHematSection'), 0)
+WebUI.scrollToElement(findTestObject('Page_Home/p_PalingLarisSection'), 0)
 
 WebUI.delay(2)
 

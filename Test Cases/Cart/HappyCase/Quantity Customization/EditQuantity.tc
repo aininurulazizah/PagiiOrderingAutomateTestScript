@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>EditQuantity</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a33e42c0-fcc7-4df0-b2dc-e58d02b91ec4</testCaseGuid>
-</TestCaseEntity>

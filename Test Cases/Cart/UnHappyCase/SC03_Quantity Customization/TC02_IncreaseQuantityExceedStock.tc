@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_IncreaseQuantityExceedStock</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>036b1220-b460-4c68-980d-0d6d97b8679e</testCaseGuid>
+</TestCaseEntity>

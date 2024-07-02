@@ -17,17 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web/Navigate To Toko'), [('Toko') : GlobalVariable.Toko], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AddToCart/HappyCase/SC01_Add Product To Cart/TC01_AddProductToCartWithValidStocksAndNotes'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
 
-WebUI.scrollToElement(findTestObject('Page_Home/p_PalingHematSection'), 0)
-
-WebUI.delay(2)
-
-WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(findTestObject('Page_Home/h3_Kopi Luwak'))))
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('Page_AddToCart/span_Tambah ke keranjang'), 0)
-
+for (int i = 0; i < 2; i++) {
+	WebUI.click(findTestObject('Page_Cart/decrease button'))
+}

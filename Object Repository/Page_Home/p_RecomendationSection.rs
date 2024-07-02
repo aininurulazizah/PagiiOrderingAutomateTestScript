@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[text()='Paling Hemat']</value>
+         <value>//p[text()='Rekomendasi']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

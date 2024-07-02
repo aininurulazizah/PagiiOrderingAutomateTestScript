@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select product on Rekomendasi Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7557dcd-6254-4439-be5e-e50f1e2ceac2</testCaseGuid>
+</TestCaseEntity>

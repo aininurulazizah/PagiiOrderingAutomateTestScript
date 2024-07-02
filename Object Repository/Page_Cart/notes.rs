@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='gagaga']</value>
+         <value>//input[@class='w-full pb-2 rounded border-gray-200 ' and @type='text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ec960026-4e83-4ac3-bc90-38c8ccd3dfa3</webElementGuid>
+      <webElementGuid>efb0bcad-9654-411f-b983-37661110c6d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full pb-2 rounded border-gray-200 </value>
-      <webElementGuid>ecc322fc-9e77-4056-ba54-062cd623b222</webElementGuid>
+      <webElementGuid>ed1ee66a-ced1-4247-b0ca-bd08af16ba1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>50e405ed-4316-4706-b03d-cb1d2035a4d1</webElementGuid>
+      <webElementGuid>796905b8-5e68-4ce8-97c9-627151d60a61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;__className_96f5ea max-w-md mx-auto min-w-[320px]&quot;]/div[@class=&quot;m-5&quot;]/section[@class=&quot;text-black pb-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;w-full border-b pb-3&quot;]/input[@class=&quot;w-full pb-2 rounded border-gray-200&quot;]</value>
-      <webElementGuid>08cc0f14-f90d-4373-be7d-36843228e352</webElementGuid>
+      <webElementGuid>4dd1b495-4282-4e59-95e3-f7692f71e6ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>value</name>
       <type>Main</type>
       <value>gagaga</value>
-      <webElementGuid>afdeb63c-e463-4fd9-b13e-b64378188605</webElementGuid>
+      <webElementGuid>f284c3be-247b-4f82-921e-b17fc0a85075</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='gagaga']</value>
-      <webElementGuid>efb7ff56-b3c0-42cf-9026-819d5069ffea</webElementGuid>
+      <webElementGuid>a08f9bb5-db83-4a41-97a7-a80012f5187e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>38499efa-8082-4d6a-bc71-ef0ec96162bb</webElementGuid>
+      <webElementGuid>39d54521-71f9-4b22-8945-dd3154350955</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>e2a9d1cc-7c8f-4a60-be03-a5e3eb5e28a5</webElementGuid>
+      <webElementGuid>f38f4d80-6165-448a-a34f-2985b796c285</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>7e0c735c-172f-481c-9759-13abf0b7ea74</webElementGuid>
+      <webElementGuid>5bd7d251-dc6f-4455-82c0-5f0e8367e3f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

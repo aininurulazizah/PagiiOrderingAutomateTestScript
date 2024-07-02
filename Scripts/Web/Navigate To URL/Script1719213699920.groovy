@@ -21,3 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.setViewPortSize(480, 800)
+

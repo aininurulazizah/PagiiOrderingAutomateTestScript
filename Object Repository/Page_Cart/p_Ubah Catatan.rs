@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]'])[1]/following::p[8]</value>
+         <value>//p[text()='Ubah Catatan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>9eba2745-bc66-4d28-b14c-f8bfc208b228</webElementGuid>
+      <webElementGuid>65cf2c2a-d66d-45a7-8a38-d35b094335f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>whitespace-nowrap text-[10px]</value>
-      <webElementGuid>bc12bd91-56e4-46c0-905a-e222264009af</webElementGuid>
+      <webElementGuid>8a8f0fc9-9179-4b4e-a0e9-961f0dfae65e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ubah Catatan</value>
-      <webElementGuid>911d534e-44e2-4659-b17c-db155dc61067</webElementGuid>
+      <webElementGuid>536b5427-ff1d-4bde-ba4a-de1ca6f2d84f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;__className_96f5ea max-w-md mx-auto min-w-[320px]&quot;]/div[@class=&quot;m-5&quot;]/section[@class=&quot;text-black pb-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;w-full border-b pb-3&quot;]/div[@class=&quot;flex items-center space-x-2&quot;]/span[@class=&quot;inline-flex items-center justify-center px-2.5 py-0.5 text-[#FFC226] cursor-pointer&quot;]/p[@class=&quot;whitespace-nowrap text-[10px]&quot;]</value>
-      <webElementGuid>2cd46bb2-0697-4731-a6a5-ac919cf11b72</webElementGuid>
+      <webElementGuid>72922a7f-9d5d-4ed2-8939-831f7cd36037</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]'])[1]/following::p[8]</value>
-      <webElementGuid>6b61520b-cab8-4eac-9c5a-8b046cc79d93</webElementGuid>
+      <webElementGuid>d0b2191c-6b89-41c6-b75b-636dd76d4cba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[8]</value>
-      <webElementGuid>63a206b2-6e3b-4084-bd6b-d0ea9782978e</webElementGuid>
+      <webElementGuid>b3a3dc8b-001b-41e4-8717-1646052e3878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah menu lainnya?'])[1]/preceding::p[2]</value>
-      <webElementGuid>38ed082a-9f51-4a57-8613-23b0bd1c8743</webElementGuid>
+      <webElementGuid>6f363816-ce83-49d6-866f-dbba038d1183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kamu masih bisa tambah menu lain dengan klik tombol disamping, ya'])[1]/preceding::p[2]</value>
-      <webElementGuid>f26bdc6f-cf87-4a00-aa56-e577e76aac6d</webElementGuid>
+      <webElementGuid>cc288c86-345e-4a13-b715-6124763e7613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ubah Catatan']/parent::*</value>
-      <webElementGuid>ef67f046-048f-4f27-8d0b-03a772ab6b3f</webElementGuid>
+      <webElementGuid>8f735eed-f4f4-4474-a6c1-ebe82637bed9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/p</value>
-      <webElementGuid>29ac8caf-f37e-4c36-96b6-b74379983b16</webElementGuid>
+      <webElementGuid>59bf4fb7-c1b0-4baa-bcdc-77776ec4b2e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Ubah Catatan' or . = 'Ubah Catatan')]</value>
-      <webElementGuid>2ecce169-07e0-4da7-b758-89b58f9dc52a</webElementGuid>
+      <webElementGuid>33772615-8424-4e82-8dfc-acbe5b581dea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,13 +21,17 @@ WebUI.callTestCase(findTestCase('Web/Navigate To Toko'), [('Toko') : GlobalVaria
 
 WebUI.refresh()
 
-WebUI.scrollToElement(findTestObject('Page_Home/p_PalingHematSection'), 0)
+WebUI.scrollToElement(findTestObject('Page_Home/p_Semua Menu'), 0)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(findTestObject('Page_Home/h3_Kopi Luwak'))))
+WebUI.click(findTestObject('Page_Home/div_Banana Cream'))
 
-WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('Page_AddToCart/notes'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_AddToCart/span_Tambah ke keranjang'), 0)
+for (int i = 0; i < 2; i++) {
+    WebUI.click(findTestObject('Page_AddToCart/img_Ini roti_btn-increment'))
+}
+
+WebUI.click(findTestObject('Page_AddToCart/span_Tambah ke keranjang'))
 

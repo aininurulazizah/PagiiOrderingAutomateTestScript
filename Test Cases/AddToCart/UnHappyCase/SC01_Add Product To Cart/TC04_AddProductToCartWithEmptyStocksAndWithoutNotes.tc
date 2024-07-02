@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_AddProductToCartWithEmptyStocksAndWithoutNotes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7318f801-68ea-4a69-8cbc-27f1962ce754</testCaseGuid>
+</TestCaseEntity>

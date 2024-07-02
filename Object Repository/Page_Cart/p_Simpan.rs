@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[8]</value>
+         <value>//p[text()='Simpan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>58432fee-a588-4567-b24b-b80aa55b93d9</webElementGuid>
+      <webElementGuid>f3aeb2ab-6909-4308-9a78-005744cccf8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>whitespace-nowrap text-[10px]</value>
-      <webElementGuid>947e5a0d-b159-4a55-b054-4e255e695689</webElementGuid>
+      <webElementGuid>a9c22021-4037-4057-9f1f-bd25e275d210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Simpan</value>
-      <webElementGuid>a7fc3c14-5931-48a0-8712-30fe5dfd24e1</webElementGuid>
+      <webElementGuid>66b9551f-d913-4c70-977d-dad7b16f4752</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;__className_96f5ea max-w-md mx-auto min-w-[320px]&quot;]/div[@class=&quot;m-5&quot;]/section[@class=&quot;text-black pb-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;w-full border-b pb-3&quot;]/div[@class=&quot;flex items-center space-x-2&quot;]/span[@class=&quot;inline-flex items-center justify-center px-2.5 py-0.5 text-[#FFC226] cursor-pointer&quot;]/p[@class=&quot;whitespace-nowrap text-[10px]&quot;]</value>
-      <webElementGuid>aa090ce4-76ea-48f6-a855-f9cf2752bcab</webElementGuid>
+      <webElementGuid>1c5e4e69-386d-4ccb-959d-99b67c370357</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[8]</value>
-      <webElementGuid>5f6675a5-94b1-4b77-b1a7-8a37e6554fc5</webElementGuid>
+      <webElementGuid>5fcc252b-dff2-4d79-a0e9-00571f9f955a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah menu lainnya?'])[1]/preceding::p[2]</value>
-      <webElementGuid>e7c65812-6285-4841-aae2-9aee02bf9632</webElementGuid>
+      <webElementGuid>37f7009b-f310-4e0f-a027-7e5f2ebbcb91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kamu masih bisa tambah menu lain dengan klik tombol disamping, ya'])[1]/preceding::p[2]</value>
-      <webElementGuid>efa03501-0e8d-443b-8aaa-fd05221fc689</webElementGuid>
+      <webElementGuid>d1b30fe6-3be5-48d4-bff3-49e6141cd465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
-      <webElementGuid>894cc8ae-deec-44d9-a7b2-a9efd024df12</webElementGuid>
+      <webElementGuid>185eb872-d8e3-46d7-bbcb-51adfc0ff5ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/p</value>
-      <webElementGuid>dc1589e3-d573-4c6f-a581-860d4b3c1b03</webElementGuid>
+      <webElementGuid>e3fe41f0-0f03-484b-8ed6-692987fd5ae4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Simpan' or . = 'Simpan')]</value>
-      <webElementGuid>96c9199a-b322-4831-a754-e3faef075963</webElementGuid>
+      <webElementGuid>8217a29f-18d1-45db-84da-8c10d5ee5d8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_AddProductToCartWithExceedStockAndWithNotes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5a3f6b7-fdcf-4f7e-85c9-d7ddf9d9226c</testCaseGuid>
+</TestCaseEntity>

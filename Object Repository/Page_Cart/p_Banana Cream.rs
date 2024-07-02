@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[2]</value>
+         <value>//p[text()='Banana Cream']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>a13df7b6-6f58-4963-b543-7704e08efc70</webElementGuid>
+      <webElementGuid>b289a5d1-bf05-41dc-828f-9c06fa3dd34c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-[#464646] text-[14px]</value>
-      <webElementGuid>9d83a435-a954-4f9d-8597-af06180dd132</webElementGuid>
+      <webElementGuid>3bd6bbf2-14db-4dc6-9325-8353f07eae1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Banana Cream</value>
-      <webElementGuid>930c5a68-7f11-4dfa-8b19-951234d66e6a</webElementGuid>
+      <webElementGuid>b018f1e8-1dfe-4d3a-a8e7-9eaf514dd9fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;__className_96f5ea max-w-md mx-auto min-w-[320px]&quot;]/div[@class=&quot;m-5&quot;]/section[@class=&quot;text-black pb-10&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;w-full border-b pb-3&quot;]/div[@class=&quot;flex flex-row gap-3&quot;]/div[@class=&quot;w-3/4&quot;]/div[@class=&quot;w-full  flex flex-col justify-center&quot;]/p[@class=&quot;text-[#464646] text-[14px]&quot;]</value>
-      <webElementGuid>dd6f4a41-0e79-437a-bdd9-2790ec5d3e4c</webElementGuid>
+      <webElementGuid>84dbaf17-0683-4388-a880-5f17d2fd5a96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[2]</value>
-      <webElementGuid>dbb62e0f-9ad6-49e3-b305-35f475efb77b</webElementGuid>
+      <webElementGuid>4a484c6f-f4ea-4fdd-afc3-9efa03caadcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah menu lainnya?'])[1]/preceding::p[8]</value>
-      <webElementGuid>0a9de342-4b67-4d6c-88a0-379dd87a2e67</webElementGuid>
+      <webElementGuid>a6cfaad0-02c4-4a7a-97a5-38c65a3238c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kamu masih bisa tambah menu lain dengan klik tombol disamping, ya'])[1]/preceding::p[8]</value>
-      <webElementGuid>a65f7ccc-cdd1-4688-a3eb-ef2599d8759d</webElementGuid>
+      <webElementGuid>8a363104-9c60-4ecc-b547-1ab01cbd42ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Banana Cream']/parent::*</value>
-      <webElementGuid>6558293c-3bf2-48c2-bbb6-eedb924ca7da</webElementGuid>
+      <webElementGuid>7aa08566-9696-4069-a426-637ddd32d87a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/p</value>
-      <webElementGuid>0b9aba81-b5fe-437d-9cf0-8a4627692cc4</webElementGuid>
+      <webElementGuid>5e8b1493-cb1b-4ba9-93a5-687893c0926b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Banana Cream' or . = 'Banana Cream')]</value>
-      <webElementGuid>9d343a7b-aadd-4e1a-b220-5b561e2577dd</webElementGuid>
+      <webElementGuid>8578bd20-e1ec-41d4-91de-97369f5dec92</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
