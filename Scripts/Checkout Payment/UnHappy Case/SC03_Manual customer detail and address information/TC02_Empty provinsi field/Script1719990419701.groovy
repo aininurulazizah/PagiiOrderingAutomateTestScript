@@ -17,14 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('AddToCart/HappyCase/SC01_Add Product To Cart/TC01_AddProductToCartWithValidStocksAndNotes'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Cart/HappyCase/SC05_Checkout/TC01_CheckoutWithValidQuantityAndNote'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
+WebUI.click(findTestObject('Page_Checkout/button_pilih tipe pesanan'))
 
-for (int i = 0; i < 106; i++) {
-    WebUI.click(findTestObject('Page_Cart/increase button'))
-}
+WebUI.click(findTestObject('Page_Checkout/Tipe Pesanan/span_Pesan Antar'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Cart/img_increase button inactive'), 0)
+WebUI.click(findTestObject('Page_Checkout/Tipe Pesanan/span_Pilih'))
+
+WebUI.click(findTestObject('Page_Checkout/button_tambah alamat'))
+
+WebUI.click(findTestObject('Page_Checkout/Informasi Alamat Fields/input_kota'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Checkout/Informasi Alamat Fields/div_alert wajib provinsi'), 0)
 

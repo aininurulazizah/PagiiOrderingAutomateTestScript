@@ -22,9 +22,13 @@ WebUI.callTestCase(findTestCase('AddToCart/HappyCase/SC01_Add Product To Cart/TC
 
 WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
 
-for (int i = 0; i < 106; i++) {
-    WebUI.click(findTestObject('Page_Cart/increase button'))
-}
+WebUI.click(findTestObject('Page_Cart/span_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Cart/img_increase button inactive'), 0)
+WebUI.delay(2)
+
+actualURL = WebUI.getUrl()
+
+expectedLink = (('https://pagii-ordering.stg8.smtapps.net/' + GlobalVariable.LinkToko) + '/checkout')
+
+WebUI.verifyMatch(actualURL, expectedLink, false)
 

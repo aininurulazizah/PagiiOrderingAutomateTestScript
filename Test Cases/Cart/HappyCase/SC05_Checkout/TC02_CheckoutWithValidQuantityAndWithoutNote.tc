@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CheckoutWithValidQuantityAndWithoutNote</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c43a7521-3b34-4cc0-b5fe-0ded63ba38d1</testCaseGuid>
+</TestCaseEntity>

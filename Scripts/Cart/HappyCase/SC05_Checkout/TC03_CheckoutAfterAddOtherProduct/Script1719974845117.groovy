@@ -22,9 +22,29 @@ WebUI.callTestCase(findTestCase('AddToCart/HappyCase/SC01_Add Product To Cart/TC
 
 WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
 
-for (int i = 0; i < 106; i++) {
-    WebUI.click(findTestObject('Page_Cart/increase button'))
+WebUI.click(findTestObject('Page_Cart/a_Tambah Produk'))
+
+WebUI.scrollToElement(findTestObject('Page_Home/p_Semua Menu'), 0)
+
+WebUI.delay(2)
+
+WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(findTestObject('Page_Home/h3_Kopi Luwak'))))
+
+for (int i = 0; i < 3; i++) {
+    WebUI.click(findTestObject('Page_AddToCart/img_Ini roti_btn-increment'))
 }
 
-WebUI.verifyElementPresent(findTestObject('Page_Cart/img_increase button inactive'), 0)
+WebUI.click(findTestObject('Page_Cart/span_Tambah ke keranjang'))
+
+WebUI.click(findTestObject('Page_Home/span_Pesanan Saya'))
+
+WebUI.click(findTestObject('Page_Cart/span_Checkout'))
+
+WebUI.delay(2)
+
+actualURL = WebUI.getUrl()
+
+expectedLink = (('https://pagii-ordering.stg8.smtapps.net/' + GlobalVariable.LinkToko) + '/checkout')
+
+WebUI.verifyMatch(actualURL, expectedLink, false)
 

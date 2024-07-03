@@ -17,14 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('AddToCart/HappyCase/SC01_Add Product To Cart/TC01_AddProductToCartWithValidStocksAndNotes'), 
+WebUI.callTestCase(findTestCase('AddToCart/HappyCase/SC01_Add Product To Cart/TC02_AddProductToCartWithValidStocksWithoutNotes'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Home/a_Pesanan Saya'))
 
-for (int i = 0; i < 106; i++) {
-    WebUI.click(findTestObject('Page_Cart/increase button'))
-}
+WebUI.click(findTestObject('Page_Cart/span_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Cart/img_increase button inactive'), 0)
+WebUI.delay(2)
+
+actualURL = WebUI.getUrl()
+
+expectedLink = (('https://pagii-ordering.stg8.smtapps.net/' + GlobalVariable.LinkToko) + '/checkout')
+
+WebUI.verifyMatch(actualURL, expectedLink, false)
 
